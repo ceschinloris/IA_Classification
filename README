@@ -1,0 +1,3 @@
+UTILISATION DU SCRIPT:
+- Pour traiter les fichiers : lancer "python preprocessing.py"
+- Pour utiliser les fichiers traités : lancer "python processing.py"

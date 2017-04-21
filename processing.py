@@ -11,7 +11,7 @@ text_train = sklearn.datasets.load_files("train",
                                          categories=categories,
                                          load_content=True,
                                          shuffle=True,
-                                         encoding='latin-1',
+                                         encoding='utf8',
                                          decode_error='strict',
                                          random_state=42)
 
@@ -20,7 +20,7 @@ text_test = sklearn.datasets.load_files("test",
                                         categories=categories,
                                         load_content=True,
                                         shuffle=True,
-                                        encoding='latin-1',
+                                        encoding='utf8',
                                         decode_error='strict',
                                         random_state=42)
 
